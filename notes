@@ -1,0 +1,34 @@
+THEME: Every 10 seconds
+
+
+
+Ideas:
+ - Endless runner
+ - running around on falling blocks
+   - 3D? / 2D? / *Isometric 2.5D*?
+   - *Survival*? / competetive?
+   - Run around and use powers to survive while blocks fall every 10 seconds.
+   - If you reach the last block the map resets but you keep your time.
+   - Maybe map gets bigger? 
+
+
+Work:
+ - Player controler		-Done
+   | Jumping is acting weird
+   | Instead of stamina bar, jumping removes even more health
+ - World generation		-Good enough
+   | Regenerate world when map over
+ - Tile dissapearance	-Done
+   | Tiles dissapear after standing on them for too long
+   | The tiles that will be destroyed show in red
+   | Figure out how to make it transition from gray to red, not black to red
+   | Leave one tile
+ - Score keeper + UI	-Done
+ - Power ups			-As done as i can
+   - Dash
+   | Extra-life
+   - Teleport up
+   - Force tile to stay
+   - Create tile
+ - Map hazards			-Maybe not. It's already going to be hard enough.
+   - Strong wind
